@@ -5,7 +5,7 @@ const moment = require("moment")
 
 function initialize(passport){
     const authenticateUser= (email,password,done)=>{
-        db.serialize(()=>{
+        
             db.get(`Select email,password from members where email="${email}"`,(err,row)=>{
                 console.log(row)
                 if(row==null){
@@ -28,7 +28,7 @@ function initialize(passport){
             }
             })
             
-        })
+        
               
     }
     passport.use(new LocalStrategy({usernameField:"email"},authenticateUser))
