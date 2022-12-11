@@ -34,3 +34,17 @@ D--Change Time Slot Selected-->F(Update Time Slot)
 F-->D
 D-->G(Logout)
 ```
+## Snippets
+Landing Page:
+![image](https://user-images.githubusercontent.com/100020772/206903639-0098c5f8-a5af-422c-becb-e55a1c1f1636.png)
+
+Login Page:
+![image](https://user-images.githubusercontent.com/100020772/206903680-56a2e74e-877b-4a5a-94ab-9280a8b7a136.png)
+
+SignUp Page:
+![image](https://user-images.githubusercontent.com/100020772/206903697-6a51b8c9-cfe2-4213-83e1-9f0ca12850f2.png)
+
+Dashboard:
+
+
+
