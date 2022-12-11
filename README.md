@@ -32,6 +32,8 @@ D --Pay Fee Selected-->E(CompletePayment)
 E-->D
 D--Change Time Slot Selected-->F(Update Time Slot)
 F-->D
+D--Change Password Selected-->H(Update New Password)
+H-->D
 D-->G(Logout)
 ```
 ## Snippets
@@ -45,6 +47,11 @@ SignUp Page:
 ![image](https://user-images.githubusercontent.com/100020772/206903697-6a51b8c9-cfe2-4213-83e1-9f0ca12850f2.png)
 
 Dashboard:
+![image](https://user-images.githubusercontent.com/100020772/206903902-af3cb58b-6cca-4797-8de2-d089383ba2f3.png)
 
+Payment Page:
+![image](https://user-images.githubusercontent.com/100020772/206903969-1ab8b1ed-b265-41be-92dc-b16f180f4c96.png)
+
+Change Password Page:
 
 
