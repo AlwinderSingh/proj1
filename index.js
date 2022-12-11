@@ -11,7 +11,7 @@ var app=express()
 const MY_SECRET_KEY="qazwsxedcrfvtgbyhnujmiklop"
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
-app.set('views', __dirname);
+app.set('views', basepath);
 app.use(bodyParser.urlencoded({extended: true})) 
 const initializePassport=require("./passport-strategy")
 initializePassport(passport)
