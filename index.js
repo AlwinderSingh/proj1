@@ -46,7 +46,7 @@ function registerpost(req,res,next){
     var flag=0;
     
    
-    bcrypt.hash(password,17,(err,password2)=>{
+    bcrypt.hash(password,7,(err,password2)=>{
         db.query(`Insert into members values("${name}",NULL,"${age}","${email}","${phno}","${timeslot}","${password2}","${timeslot}","${payment}")`,(err)=>{
             if(err){
                 res.render(basepath+"/Home.html",{flash:"failure"})
