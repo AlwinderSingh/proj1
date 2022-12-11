@@ -1,5 +1,5 @@
 # Yoga-Class by Flexmoney
-This website aims at providing the yoga classes to differenct at groups(18-65) with flexible timeslots at a nominal charges of Rs.500.
+This website(Hosted on render: https://yoga-flexmoney.onrender.com/) aims at providing the yoga classes to differenct at groups(18-65) with flexible timeslots at a nominal charges of Rs.500.
 
 
 # ER Diagram
