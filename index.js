@@ -44,7 +44,7 @@ function registerpost(req,res,next){
     const age=req.body.age
     const payment="false"
     var flag=0;
-    db.serialize(()=>
+    
    
     bcrypt.hash(password,17,(err,password2)=>{
         db.query(`Insert into members values("${name}",NULL,"${age}","${email}","${phno}","${timeslot}","${password2}","${timeslot}","${payment}")`,(err)=>{
@@ -60,7 +60,7 @@ function registerpost(req,res,next){
         console.log(flag)
 
 
-    }) )
+    }) 
     
     
 }
